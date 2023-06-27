@@ -16,7 +16,24 @@
             android:id="@+id/nav_favorites"
             android:icon="@drawable/favorites"
             android:title="@string/favorites" />
+        <item
+            android:id="@+id/nav_standard_tuner"
+            android:icon="@drawable/standard_tuner"
+            android:title="@string/standard_tuner" />
+        <item
+            android:id="@+id/nav_chromatic_tuner"
+            android:icon="@drawable/chromatic_tuner"
+            android:title="@string/chromatic_tuner" />
+        <item
+            android:id="@+id/nav_metronome"
+            android:icon="@drawable/metronome"
+            android:title="@string/metronome" />
+        <item
+            android:id="@+id/nav_tabs"
+            android:icon="@drawable/tabs"
+            android:title="@string/tabs" />
     </group>
+
     <group
         android:id="@+id/menu_bottom"
         android:checkableBehavior="single">
@@ -28,5 +45,14 @@
             android:id="@+id/nav_bin"
             android:icon="@drawable/bin"
             android:title="@string/bin" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/resources"
+            android:title="@string/resources" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/shopping"
+            android:title="@string/shopping" />
     </group>
+
 </menu>
