@@ -3,17 +3,17 @@
     <item
         android:id="@+id/menu_standard"
         android:title="Standard"
-        android:icon="@drawable/bin" />
+        android:icon="@drawable/baseline_music_note_24" />
     <item
         android:id="@+id/menu_chromatic"
         android:title="Chromatic"
-        android:icon="@drawable/bin" />
+        android:icon="@drawable/baseline_music_note_24" />
     <item
         android:id="@+id/menu_metronome"
         android:title="Metronome"
-        android:icon="@drawable/bin" />
+        android:icon="@drawable/recent" />
     <item
         android:id="@+id/menu_tabs"
         android:title="Tabs"
-        android:icon="@drawable/bin" />
+        android:icon="@drawable/tabs" />
     </menu>

@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_home"
+    app:defaultNavHost="true">
+
 
     <fragment
         android:id="@+id/nav_home"
@@ -13,6 +15,10 @@
         <action
             android:id="@+id/nav_home_to_content"
             app:destination="@id/nav_content"
+            app:popUpTo="@id/nav_home" />
+        <action
+            android:id="@+id/nav_home_to_chromatic_tuner"
+            app:destination="@id/nav_chromatic_tuner"
             app:popUpTo="@id/nav_home" />
     </fragment>
 
@@ -51,4 +57,10 @@
         android:name="edu.msudenver.cs3013.navigationdrawer.SettingFragment"
         android:label="@string/settings"
         tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_chromatic_tuner"
+        android:name="edu.msudenver.cs3013.navigationdrawer.ChromaticTunerFragment"
+        android:label="Chromatic Tuner"
+        tools:layout="@layout/fragment_chromatic_tuner" />
 </navigation>
